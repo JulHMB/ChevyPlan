@@ -1,0 +1,56 @@
+body {
+    margin-top: 3em;
+}
+label {
+    font-weight: 600;
+}
+h3 {
+    color: #164376;
+    font-weight: 600;
+}
+p.notify {
+    color: gray;
+    font-size: 11pt;
+    line-height: 2;
+    padding: 3em;
+}
+.btn-grad {background-image: linear-gradient(to right, #8E0E00 0%, #1F1C18  51%, #8E0E00  100%)}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: 600;
+}
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.form-control {
+    background-color: #e1e1e1;
+    border: none;
+    border-bottom: 3px solid #7c7c7c;
+}
+.form-control:focus {
+    color: unset;
+    background-color: #e1e1e1;
+    border-bottom: 3px solid #7c7c7c;
+    outline: 0;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%);
+}
+
+@media (max-width: 992px) {
+    img {
+        padding: 0 35%;
+    }
+    .col-lg-6.col-sm-12 {
+        margin-top: 3rem;
+    }
+}
